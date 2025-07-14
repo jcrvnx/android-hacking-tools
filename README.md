@@ -51,18 +51,18 @@ Your support means a lot and helps keep the project alive!
 
 ## ⭐ Star This Repository
 
-If you find this toolkit helpful, don’t forget to [🌟 star the repo on GitHub](https://github.com/android-hacking-tools) to show your support!
+If you find this toolkit helpful, don’t forget to [🌟 star the repo on GitHub](https://github.com/jcrvnx/android-hacking-tools) to show your support!
 
 ---
 
 ## 📈 Repository Stats
 
-![GitHub Stars](https://img.shields.io/github/stars/android-hacking-tools?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/android-hacking-tools?style=social)
+![GitHub Stars](https://img.shields.io/github/stars/jcrvnx/android-hacking-tools?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/jcrvnx/android-hacking-tools?style=social)
 
 ### 🔥 Stars Over Time
 
-[![Stargazers over time](https://starchart.cc/android-hacking-tools.svg)](https://starchart.cc/android-hacking-tools)
+[![Stargazers over time](https://starchart.cc/jcrvnx/android-hacking-tools.svg)](https://starchart.cc/jcrvnx/android-hacking-tools)
 
 ---
 
