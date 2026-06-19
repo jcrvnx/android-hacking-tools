@@ -1,31 +1,46 @@
 # 💻 Android Hacking Tools
 
-This repository contains a well-organized collection of essential tools for Android developers, modders, and reverse engineers who work on APK modifications, game cheats, and Android mod menus.
+A well-organized collection of essential tools for Android developers, modders, and reverse engineers who work on APK modifications, game cheats, and Android mod menus.
 
 > ⚠️ **For Educational Purposes Only**
 
 ---
 
+## 📁 Contents
+
+- [APK Tools](#-apk-folder-apks)
+- [ZIP Tools](#️-zip-folder-zip-tools)
+- [Templates](#-templates)
+- [Frida Scripts](#-frida-scripts) *(new)*
+- [Contributing](#-contributing)
+- [Support](#️-support--donations)
+
+---
+
 ## 📂 APK Folder (APKs)
 
-These are pre-installed APK-based tools used for on-device Android modification and development:
+Pre-installed APK-based tools for on-device Android modification and development:
 
-- **AIDE** – Android IDE for coding and app development on the go  
-- **AntiSplit-G2 v1.3 (Build 1)** – Tool for merging split APKs  
-- **APK Tool M** – Versatile APK decompiler and builder  
-- **il2cppDumperGUI** – GUI version of IL2CPP Dumper for Unity games  
-- **Meow Transparent** – Tool with floating UI features (modding overlay)  
-- **MT Manager** – Powerful file manager with APK editing tools  
-- **NP Manager** – Patching and modding utility for Android apps
+| Tool | Description |
+|------|-------------|
+| **AIDE** | Android IDE for coding and app development on the go |
+| **AntiSplit-G2 v1.3** | Tool for merging split APKs |
+| **APK Tool M** | Versatile APK decompiler and builder |
+| **il2cppDumperGUI** | GUI version of IL2CPP Dumper for Unity games |
+| **Meow Transparent** | Tool with floating UI features (modding overlay) |
+| **MT Manager** | Powerful file manager with APK editing tools |
+| **NP Manager** | Patching and modding utility for Android apps |
 
 ---
 
 ## 🗜️ ZIP Folder (ZIP Tools)
 
-These are PC-based portable tools packed in ZIP format:
+PC-based portable tools packed in ZIP format:
 
-- **APK Easy Tool v1.60 (Portable)** – GUI-based APK decompiler/recompiler  
-- **HxD Portable** – Lightweight and powerful hex editor
+| Tool | Description |
+|------|-------------|
+| **APK Easy Tool v1.60 (Portable)** | GUI-based APK decompiler/recompiler |
+| **HxD Portable** | Lightweight and powerful hex editor |
 
 ---
 
@@ -33,8 +48,42 @@ These are PC-based portable tools packed in ZIP format:
 
 Inside the `MOD MENU` folder, you'll find:
 
-- **Android Mod Menu Template** – Clean and modular template originally inspired by the **LGL Team**  
-Perfect for creating your own custom in-game mod menus with toggleable cheats and UI elements.
+- **Android Mod Menu Template** – Clean and modular template originally inspired by the **LGL Team**.  
+  Perfect for creating your own custom in-game mod menus with toggleable cheats and UI elements.
+
+---
+
+## 🪝 Frida Scripts
+
+A curated collection of Frida dynamic instrumentation scripts for Android reverse engineering and security research.
+
+> 📌 Scripts are organized by category inside the `frida-scripts/` folder.
+
+| Category | Description |
+|----------|-------------|
+| `ssl-pinning/` | Bypass SSL/TLS certificate pinning (OkHttp3, TrustManager, etc.) |
+| `root-detection/` | Bypass common root detection checks (RootBeer, su binary, etc.) |
+| `memory/` | Memory scanning and runtime value manipulation |
+| `il2cpp/` | IL2CPP metadata dumping and Unity game hooks |
+
+**Basic usage:**
+```bash
+frida -U -f com.target.app -l frida-scripts/ssl-pinning/bypass-okhttp3.js
+```
+
+> Community contributions welcome — see [Contributing](#-contributing) below.
+
+---
+
+## 🤝 Contributing
+
+Contributions are open! If you have tools, scripts, or templates that belong here:
+
+1. **Fork** this repository
+2. Add your files to the appropriate folder
+3. Open a **Pull Request** with a short description
+
+Read the full guidelines in [CONTRIBUTING.md](CONTRIBUTING.md) before submitting.
 
 ---
 
@@ -43,7 +92,7 @@ Perfect for creating your own custom in-game mod menus with toggleable cheats an
 If you'd like to support this project, you can send your donation via **GCash**:
 
 **📱 GCash Number:** `0962 797 2598`  
-**Recipient Name:** *Jcrist Vincent Orhen*  
+**Recipient Name:** *Jcrist Vincent Orhen*
 
 Your support means a lot and helps keep the project alive!
 
@@ -51,7 +100,7 @@ Your support means a lot and helps keep the project alive!
 
 ## ⭐ Star This Repository
 
-If you find this toolkit helpful, don’t forget to [🌟 star the repo on GitHub](https://github.com/jcrvnx/android-hacking-tools) to show your support!
+If you find this toolkit helpful, don't forget to [🌟 star the repo on GitHub](https://github.com/jcrvnx/android-hacking-tools) to show your support!
 
 ---
 
@@ -66,6 +115,7 @@ If you find this toolkit helpful, don’t forget to [🌟 star the repo on GitHu
 
 ---
 
-## 🛠️ Made with passion by  
+## 🛠️ Made with passion by
+
 [**Jcrist Orhen**](https://facebook.com/jcristorhen)  
-Founder of Orhen Technologies – Empowering Android Reverse Engineering and Modding Communities
+Founder of Nyxar Technologies – Empowering Android Reverse Engineering and Modding Communities
